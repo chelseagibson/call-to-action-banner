@@ -6,7 +6,7 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 *, *::before, *::after {
@@ -24,6 +24,7 @@ html {
   font-size: 1.125em;
   border-style: solid;
   border-color: #333;
+  float: right;
 }
 
 body {
@@ -37,6 +38,7 @@ body {
 }
 
 .banner-content {
+  transform: translateX(-50%);
   padding: 0 1rem;
   position: absolute;
   bottom: 1rem;
@@ -55,7 +57,7 @@ h2 {
   font-weight: bold;
 }
 
-img-circle {
+.img-circle {
   width: 10em;
   float: left;
 }
